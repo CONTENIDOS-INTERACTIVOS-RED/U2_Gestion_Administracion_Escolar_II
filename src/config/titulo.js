@@ -1,1 +1,1 @@
-module.exports = 'Planes de mejoramiento'
+module.exports = 'Educación inicial'

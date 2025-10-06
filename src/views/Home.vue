@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad sobre Gestión y Administración Escolar II aborda los Planes de Mejoramiento Institucional (PMI) como herramientas esenciales para garantizar la calidad educativa. Profundiza en sus componentes —diagnóstico, metas, acciones, cronograma, responsables y seguimiento— y en las gestiones directiva, académica, administrativa y comunitaria. Además, resalta la evaluación institucional, especialmente la autoevaluación, como clave para tomar decisiones fundamentadas. A través de un enfoque práctico, fomenta la reflexión, la participación comunitaria y el liderazgo transformador en contextos educativos, especialmente en la educación infantil.   
+              p.descripcion.mb-4 La unidad de estudio aborda la normativa que rige la educación inicial en Colombia, centrada en el Decreto 2247 de 1997, la Resolución 2343 de 1996 y las orientaciones del MEN sobre actividades rectoras como el juego, arte, literatura y exploración del medio. Se analiza cómo estas normativas garantizan el desarrollo integral de la niñez en sus dimensiones física, cognitiva, comunicativa, socioemocional y ética. Se promueve una mirada crítica, reflexiva y ética del rol docente, fundamentada en políticas públicas, participación familiar y evaluación formativa.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

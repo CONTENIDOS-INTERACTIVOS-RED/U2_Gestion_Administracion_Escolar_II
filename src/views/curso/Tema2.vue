@@ -1,402 +1,581 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Gestiones que conforman el Plan de Mejoramiento'")
+  BannerInterno(:subTitulo="'2. Actividades rectoras de la educación inicial'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .bg-color-2.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto.order-2
-          figure
-            img(src='@/assets/curso/tema2/1.png', alt='')
-        .col-lg.order-1.mb-3.mb-lg-0
-          .p-4
-            p.mb-0(data-aos="fade-up") ¿Qué impulsa verdaderamente el cambio dentro de una institución educativa? Para responder a esta inquietud, es fundamental explorar las gestiones que conforman el Plan de Mejoramiento Institucional. Estas gestiones van más allá de simples procesos administrativos; constituyen los motores que, al integrarse, transforman ideas en acciones concretas para elevar la calidad educativa. A lo largo de este tema, se invita a descubrir cómo el liderazgo, la gestión pedagógica, la administración y la participación de la comunidad se entrelazan para generar un impacto real y positivo en el entorno escolar. Iniciemos este recorrido para comprender el papel fundamental que cada gestión desempeña en la construcción de una educación más efectiva y significativa.
-
-    #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Gestión directiva: liderazgo, visión institucional y clima escolar
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/1.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p(data-aos="fade-left") ¿Cómo un niño aprende mientras juega, canta o explora? En la educación inicial, estas acciones no son solo momentos de diversión, sino verdaderas oportunidades de aprendizaje.
     
-    p.mb-5 La gestión directiva desempeña un papel clave en la calidad y sostenibilidad de las instituciones educativas, especialmente ante desafíos contemporáneos como la inclusión, la diversidad cultural y la transformación digital (Gvirtz, 2010). Esta gestión articula el liderazgo, la visión institucional y el clima escolar como ejes fundamentales para la mejora continua.
+        .bg-color-2.p-5.mb-3(data-aos="fade-left")
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema4/2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 En esta sección, se invita a descubrir el poder transformador de las actividades rectoras: el juego, el arte, la literatura y la exploración del medio, como ejes centrales del desarrollo infantil. A través de estas experiencias, se siembran las bases del pensamiento, se fortalecen los vínculos afectivos y se favorecen todas las dimensiones del desarrollo.
+        p Comprender el sentido pedagógico de estas actividades permite proyectar una práctica educativa más sensible, creativa y coherente con las necesidades reales de la infancia. Aquí se abre la puerta a un recorrido formativo donde se conecta teoría y práctica para reconocer que enseñar a los más pequeños va más allá de transmitir conocimientos: implica crear mundos posibles para aprender sintiendo, haciendo y viviendo.
+
+    #t_4_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.1] Definición y fundamento pedagógico de las actividades rectoras
+    
+    .bg-full-width.bg-color-4
+      .p-4.p-md-5
+        .row.mb-5
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/curso/tema4/2.png", data-aos="zoom-in")
+          .col-lg-8
+            p(data-aos="fade-left") ¿Por qué el juego, el arte, la literatura y la exploración del entorno son más que simples pasatiempos en la educación inicial?
+        
+            .bg-color-3.p-5(data-aos="fade-left")
+              p.mb-0 En el contexto colombiano, estas prácticas son reconocidas como actividades rectoras porque orientan y estructuran la propuesta pedagógica para la primera infancia. Según las Orientaciones pedagógicas para la educación inicial en el marco de la atención integral (MEN, 2024) y los referentes técnicos de De Cero a Siempre (2021), estas actividades son el núcleo de una educación inicial centrada en el desarrollo integral.
+
+        h2(data-aos="fade-left") ¿Qué las hace “rectoras”?
+        p.mb-5 Estas actividades se ajustan a la forma natural de aprender de los niños pequeños: a través del movimiento, la emoción, la imaginación y la interacción social. A diferencia de enfoques escolarizados que priorizan contenidos formales, las actividades rectoras permiten aprendizajes auténticos, vivenciales y transversales, promoviendo el pensamiento simbólico, el lenguaje, la resolución de conflictos, la creatividad y la autorregulación emocional.
+
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-8.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-12 col-lg-6")
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/4.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Lev Vygotsky
+                p.text-center El juego como motor del aprendizaje social y herramienta para avanzar en la zona de desarrollo próximo.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/5.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Jean Piaget
+                p.text-center El juego simbólico como medio de asimilación activa de la realidad y construcción de conocimiento.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/6.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Urie Bronfenbrenner
+                p.text-center El niño como centro de sistemas interrelacionados; las actividades rectoras como puentes entre familia, escuela y comunidad.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/7.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Howard Gardner
+                p.text-center El arte, la música y el movimiento como expresiones legítimas del pensamiento infantil en el marco de las inteligencias múltiples.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/8.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Loris Malaguzzi (Reggio Emilia)
+                p.text-center La creatividad y la curiosidad como lenguajes naturales de la infancia; el arte y la exploración como caminos hacia el conocimiento.
+    
+          .col-lg-4.order-lg-1
+            figure
+              img(src='@/assets/curso/tema4/3.png', alt='')
+        
+        h2(data-aos="fade-left").mb-5 Implicaciones pedagógicas y rol del educador
+        
+        .row.mb-5
+          .col-lg-4.mb-3.mb-lg-0.order-lg-2
+            figure
+              img(src="@/assets/curso/tema4/9.png", data-aos="zoom-in")
+          .col-lg-8.order-lg-1
+            .bg-color-7.p-5(data-aos="fade-left").mb-3
+              p.mb-0 Adoptar las actividades rectoras como base del currículo implica transformar la manera de enseñar. No se trata de imponer contenidos, sino de crear ambientes pedagógicos provocadores, ricos y respetuosos del ritmo y las voces de los niños. El educador actúa como un acompañante atento, que observa, documenta, escucha y propone sin forzar, favoreciendo la libre expresión, el descubrimiento y la autonomía.
+            h2(data-aos="fade-left") Marco normativo colombiano
+            p.mb-5 El carácter rector de estas prácticas está respaldado por la legislación nacional:
+
+        .row.justify-content-center.align-items-stretch
+          .col-lg-4.mb-3.mb-lg-0
+            .bg-color-6.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema4/10.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  h5.mb-2 01
+                  p.mb-0 Decreto 2247 de 1997
+          .col-lg-4.mb-3.mb-lg-0
+            .bg-color-6.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema4/10.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  h5.mb-2 02
+                  p.mb-0 Resolución 2343 de 1996
+          .col-lg-4.mb-3.mb-lg-0
+            .bg-color-6.p-4(data-aos="fade-left").h-100
+              .row.align-items-center
+                .col-lg-auto
+                  img(src="@/assets/curso/tema4/10.svg", style="max-width: 90px").mx-auto
+                .col-lg
+                  h5.mb-2 03
+                  p.mb-0 Orientaciones del MEN sobre educación inicial
+        
+    .bg-full-width.bg-color-4
+      .p-4.p-md-5
+        .row.mb-5
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/curso/tema4/11.png", data-aos="zoom-in")
+          .col-lg-8
+            p(data-aos="fade-left") Estas normativas establecen la obligatoriedad de incorporar estas actividades en el nivel preescolar como garantía del derecho al desarrollo pleno y a una educación inicial pertinente, inclusiva y con sentido para la infancia.
+        
+            .bg-color-1.p-5(data-aos="fade-left")
+              p.mb-0 Reconocer el juego, el arte, la literatura y la exploración como actividades rectoras transforma radicalmente la experiencia educativa en la infancia. Son prácticas que responden a cómo los niños piensan, sienten y aprenden, y que consolidan una pedagogía centrada en la dignidad, el respeto y el desarrollo integral.
+
+    #t_4_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] El juego como actividad rectora: características y potencial educativo
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0.order-lg-2
+        figure
+          img(src="@/assets/curso/tema4/12.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p(data-aos="fade-left") ¿Qué pasaría si se observa el juego no como un simple momento de recreo, sino como el motor central del desarrollo infantil? Esta pregunta invita a replantear profundamente las prácticas pedagógicas en la educación inicial. Durante mucho tiempo, el juego fue subestimado como un recurso complementario, reservado para momentos de descanso o recompensa. Sin embargo, investigaciones recientes en pedagogía, psicología del desarrollo y neurociencias han demostrado que el juego es una actividad estructurante, esencial para el aprendizaje significativo y el desarrollo integral en la primera infancia.
+    
+        .bg-color-3.p-5(data-aos="fade-left").mb-3
+          p.mb-0 En el contexto colombiano, el Ministerio de Educación Nacional (MEN) reconoce cuatro actividades rectoras en la educación inicial: el juego, el arte, la literatura y la exploración del entorno. Estas actividades son denominadas rectoras porque representan formas legítimas y naturales de aprendizaje, expresión y desarrollo en la infancia (MEN, 2014).
+    
+    h2(data-aos="fade-left") El juego como experiencia pedagógica integral
+    p.mb-5 A continuación, se presenta un video que presenta la importancia del juego como experiencia pedagógica integral en la infancia, destacando sus múltiples beneficios en el desarrollo cognitivo, emocional y social de los niños y niñas.
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
-        SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema2/2.png")
-            .col-lg-7.mb-3.mb-lg-0
-              h5 Liderazgo educativo
-              p Es transformacional y distributivo, orientado a empoderar a la comunidad educativa (Leithwood et al., 2020). Implica inspirar colaboración, innovación, ética y participación activa, promoviendo la equidad y la diversidad.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema2/3.png")
-            .col-lg-7.mb-3.mb-lg-0
-              h5 Visión institucional
-              p Funciona como brújula estratégica. Debe ser compartida, flexible y alineada con los cambios sociales y tecnológicos. Debe integrar sostenibilidad, uso digital responsable y desarrollo socioemocional (UNESCO, 2024).
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema2/4.png")
-            .col-lg-7.mb-3.mb-lg-0
-              h5 Clima escolar
-              p Comprende dimensiones emocionales, sociales y organizacionales. Un ambiente positivo mejora el rendimiento y reduce conflictos (Thapa et al., 2013). Se construye con protocolos, formación y evaluación continua.
-    
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La integración armónica de estos tres elementos crea un sistema coherente que sostiene la mejora continua. Por ejemplo, un liderazgo participativo facilita la apropiación colectiva de la visión institucional, fortaleciendo el compromiso con un clima escolar saludable. Esta sinergia convierte a la institución en un espacio dinámico, innovador y receptivo a necesidades emergentes.
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/bLAtH76yCDg?si=PYtIcDSk8wSuqSUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-        .bg-color-7.p-5(data-aos="fade-left")
-          p.mb-0 Además, un enfoque sistémico impulsa la creación de redes de apoyo internas y externas. El liderazgo debe fomentar alianzas con otras instituciones, autoridades educativas y la comunidad, ampliando el impacto y la sostenibilidad de las iniciativas.
-    
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/6.png", data-aos="zoom-in")
-      .col-lg-8
-        p(data-aos="fade-left") Las recomendaciones para fortalecer la gestión directiva son:
-    
-        .bg-color-3.p-5(data-aos="fade-left").mb-3
-          ul.lista-ul--color.mb-0
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Implementar procesos de liderazgo distribuido con participación activa de equipos directivos, coordinadores y docentes.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Desarrollar formación continua en liderazgo ético, gestión del cambio y diversidad cultural.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Utilizar tecnologías digitales para mejorar la comunicación y participación comunitaria.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Establecer indicadores que midan el impacto del liderazgo y el clima escolar sobre los aprendizajes y el bienestar institucional.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Fomentar una cultura organizacional basada en la transparencia, el diálogo y la innovación constante.
-        p En conclusión, la gestión directiva es un pilar esencial para transformar las instituciones educativas en espacios inclusivos, innovadores y sostenibles. Su incidencia es especialmente relevante en la educación infantil, donde el entorno y el acompañamiento son claves para el desarrollo integral del estudiante (Polo y Sánchez, 2022).
-
-    #t_2_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.2] Gestión académica: currículo, procesos pedagógicos y resultados de aprendizaje
-    
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        .bg-color-2.p-5(data-aos="fade-left").mb-3
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 ¿De qué manera el currículo, los procesos pedagógicos y los resultados de aprendizaje se interrelacionan para impulsar la calidad educativa dentro de una institución? Esta pregunta invita a comprender la gestión académica como el eje estratégico que articula y dinamiza los elementos fundamentales de la práctica educativa, promoviendo la mejora continua y el desarrollo integral de los estudiantes.
-        p(data-aos="fade-left") La gestión académica no debe considerarse un proceso aislado ni meramente técnico, sino una tarea colectiva y dinámica que requiere compromiso y visión. Reflexionar sobre cómo se conectan sus componentes permite reconocer que mejorar la educación implica un trabajo articulado, donde todos los actores educativos tienen un papel esencial.
-    
-    TabsC.color-primario.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Currículo" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center.align-items-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Currículo
-            p No es solo un conjunto de contenidos, sino un marco flexible y contextualizado que integra conocimientos, habilidades, valores y competencias. Debe ser coherente con el PEI y responder a los desafíos de la Agenda 2030 (UNESCO, 2024), incorporando competencias cognitivas, socioemocionales, digitales y éticas.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/9.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Procesos pedagógicos" :icon="require('@/assets/bullets/2.svg')")
-        .row.justify-content-center.align-items-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Procesos pedagógicos
-            p Incluyen métodos, estrategias y prácticas docentes. Se privilegian enfoques centrados en el estudiante, aprendizaje colaborativo, indagación activa y pensamiento crítico. Requieren formación continua para docentes, inclusión de tecnologías y atención a la diversidad (Flórez y Castellanos, 2018).
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/10.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Resultados de aprendizaje" :icon="require('@/assets/bullets/3.svg')")
-        .row.justify-content-center.align-items-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Resultados de aprendizaje
-            p Deben ir más allá de las pruebas estandarizadas. Se espera que incluyan habilidades cognitivas y también socioemocionales, creativas y éticas. La evaluación debe ser formativa, auténtica e integral, orientada por la retroalimentación y la participación de todos los actores educativos.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/11.png', alt='', style="width: 100%;")
-    
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/12.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") El currículo debe estar alineado con el Proyecto Educativo Institucional (PEI) y el Plan de Mejoramiento Institucional (PMI), asegurando coherencia y dirección estratégica. Esta articulación permite transformar metas en acciones pedagógicas medibles y efectivas.
-    
-        .bg-color-7.p-5(data-aos="fade-left")
-          p.mb-0 Por su parte, los procesos pedagógicos deben promover una enseñanza significativa mediante la actualización profesional, el uso de tecnologías y la pedagogía inclusiva. En este marco, la formación docente continua es clave para garantizar respuestas pertinentes a la diversidad estudiantil.
-    
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/13.png", data-aos="zoom-in")
-      .col-lg-8
-        p(data-aos="fade-left") La evaluación de los aprendizajes, componente esencial de la gestión académica, no solo verifica logros, sino que orienta mejoras. Debe ser integral, considerando dimensiones cognitivas, procedimentales y actitudinales, y apoyarse en evidencias para ajustar las estrategias del PMI.
-    
-        .bg-color-1.p-5(data-aos="fade-left")
-          p.mb-0 En conjunto, estos tres componentes actúan como engranajes de un sistema educativo centrado en la calidad, la equidad y la pertinencia. Para lograr un impacto real y sostenible, la gestión académica requiere colaboración entre directivos, docentes, estudiantes, familias y comunidad. Solo a través de esta articulación es posible construir entornos de aprendizaje donde todos los estudiantes puedan desarrollarse plenamente y estar preparados para los desafíos del mundo actual.
-    
-    #t_2_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.3] Gestión administrativa y financiera: recursos humanos, infraestructura y presupuesto
-    
-    p.mb-5 ¿Por qué se dice que una buena gestión administrativa y financiera es la columna vertebral de toda institución educativa? Esta pregunta abre la posibilidad de comprender que, sin una gestión eficiente de los recursos humanos, físicos y financieros, los sueños pedagógicos plasmados en el Proyecto Educativo Institucional (PEI) y el Plan de Mejoramiento Institucional (PMI) difícilmente se concretan. Esta gestión no actúa de forma aislada: proporciona soporte, dirección y viabilidad a todas las demás dimensiones educativas.
-
-    .row.align-items-start.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/14.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-lg-1
-    
-        AcordionA(tipo="b")
-          .div(titulo="Recursos humanos")
-            p Va más allá de la contratación. Involucra planeación, bienestar, formación, evaluación y colaboración. Es clave para consolidar un equipo docente y administrativo competente e innovador. Debe responder a los retos pedagógicos actuales y estar enmarcado en la Ley 115 de 1994 y lineamientos del MEN (2024).
-    
-          .div(titulo="Infraestructura educativa")
-            p No es solo utilitaria, sino pedagógica e inclusiva. Debe garantizar seguridad, accesibilidad, conectividad y bienestar. Espacios como aulas, zonas verdes, comedores y entornos virtuales influyen en la calidad del aprendizaje, especialmente en la educación híbrida postpandemia.
-    
-          .div(titulo="Presupuesto institucional")
-            p Herramienta clave para concretar el PEI y el PMI. Su gestión debe ser participativa, transparente y proyectada a largo plazo. Basado en el Decreto 1075 de 2015, el uso del Sistema General de Participaciones (SGP) y otros recursos debe ser eficiente, ético y orientado a prioridades educativas.
-        
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/15.png", data-aos="zoom-in")
-      .col-lg-8
-        p(data-aos="fade-left") Una gestión de recursos humanos efectiva implica diseñar estrategias para potenciar las capacidades del equipo docente y administrativo, identificar necesidades formativas y promover un entorno laboral saludable. Este proceso debe ser estratégico, no solo operativo, y estar orientado a elevar la calidad del servicio educativo.
-    
-        .bg-color-2.p-5.mb-3(data-aos="fade-left")
-          p.mb-0 En cuanto a la infraestructura, se reconoce su influencia directa en la experiencia educativa. Ya no se entiende solo como soporte físico, sino como espacio pedagógico que acoge y estimula. Por tanto, mejorar el entorno escolar desde un enfoque inclusivo y centrado en la infancia es esencial para lograr aprendizajes significativos.
-        p El presupuesto, por su parte, traduce la visión institucional en acciones reales. Una gestión financiera adecuada permite priorizar inversiones, responder a necesidades emergentes y garantizar transparencia ante la comunidad. Las decisiones presupuestales deben vincularse a los objetivos educativos, no solo a criterios administrativos.
-        h5 Es fundamental comprender que estos tres componentes no operan de manera aislada. Su articulación responde a una lógica sistémica: por ejemplo, la contratación de nuevo personal implica recursos financieros y adecuaciones físicas, mientras que la inversión en infraestructura incide en las condiciones de trabajo y aprendizaje.
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0.order-lg-2
-        figure
-          img(src="@/assets/curso/tema2/16.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") Según la UNESCO (2024), es necesario transitar de una lógica de control a una lógica de liderazgo transformador. Esto implica que la gestión administrativa y financiera debe ser participativa, estratégica y orientada al mejoramiento continuo, especialmente en contextos como la educación infantil, donde cada recurso debe estar alineado con el desarrollo, el juego y el bienestar integral de niñas y niños.
-    
-        .bg-color-3.p-5(data-aos="fade-left").mb-3
-          p Reflexiones clave para profesionales de la educación infantil:
-          ul.lista-ul--color.mb-0
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 ¿Cómo puede optimizarse el uso de recursos en favor de la infancia?
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 ¿De qué manera se puede incidir en la toma de decisiones presupuestales desde una visión pedagógica y ética?
-        p La gestión administrativa y financiera no es solo técnica, es una dimensión profundamente pedagógica que sostiene y potencia todos los procesos educativos.
-
-    #t_2_4.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.4] Gestión de la comunidad: participación de familias, estudiantes y actores del entorno.
-    
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/17.png", data-aos="zoom-in")
-      .col-lg-8
-        .bg-color-1.p-5(data-aos="fade-left").mb-3
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/tema2/18.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 ¿Cómo lograr que la comunidad educativa se sienta parte real y activa del proceso escolar? Esta es una pregunta crucial en cualquier proceso de mejora institucional. A menudo, la participación comunitaria se menciona como un ideal deseable, pero pocas veces se aborda desde una perspectiva estructural y estratégica dentro del Plan de Mejoramiento Institucional (PMI).
-        p(data-aos="fade-left") Comprender la gestión de la comunidad como un eje articulador de transformación implica pasar de lo simbólico a lo operativo: generar vínculos sostenibles entre la escuela y los diversos actores del entorno, reconociendo su valor en la construcción de una educación con sentido social y humano.
-    
-    .bg-full-width.bg-fondo-1.mb-5
-      .p-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            ImagenInfografica.color-secundario
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/tema2/19.svg', alt='', style="max-width: 1106px;").mx-auto
-    
-              .bg-color-white.box-shadow.p-3(x="35%" y="18.5%" numero="+")
-                h5 Familias
-                p Son el primer agente educativo. Deben ser vistas como expertas en sus contextos, con saberes que enriquecen el currículo. Es clave fomentar vínculos de corresponsabilidad a través de círculos de diálogo, talleres y jornadas participativas, en un ambiente de confianza y horizontalidad.
-    
-              .bg-color-white.box-shadow.p-3(x="61%" y="5%" numero="+")
-                h5 Estudiantes
-                p Son protagonistas de su proceso. Incluso en la infancia, deben tener espacios para expresarse: asambleas infantiles, murales, semilleros. Según UNICEF (2022), esto fortalece la autoestima, empatía y sentido de pertenencia. Su voz debe integrarse en decisiones institucionales.
-    
-              .bg-color-white.box-shadow.p-3(x="67%" y="15%" numero="+")
-                h5 Actores del entorno
-                p Incluyen organizaciones, universidades, colectivos culturales, entre otros. Su participación no debe limitarse a alianzas puntuales, sino a una articulación estratégica y sostenida. El PMI debe contemplar un mapeo territorial y mecanismos para fortalecer la pertinencia territorial de la escuela.
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0.order-lg-2
-        figure
-          img(src="@/assets/curso/tema2/20.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La gestión comunitaria no se limita a convocar reuniones ni a informar decisiones. Se trata de promover procesos dialógicos, incluyentes y corresponsables, donde la participación de familias, estudiantes y actores del entorno esté institucionalizada. Según el MEN (2021), esto exige mecanismos efectivos, reconocimiento de la diversidad cultural y social, y promoción de la autonomía escolar desde la equidad.
-    
-        .bg-color-3.p-5(data-aos="fade-left").mb-3
-          p Las condiciones institucionales para una participación efectiva son:
-          ul.lista-ul--color.mb-0
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Canales permanentes de comunicación bidireccional.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Representación activa en los órganos de gobierno escolar.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Política institucional de participación basada en inclusión y equidad.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Evaluación participativa del PMI.
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 Formación de docentes y directivos en participación social.
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/21.png", data-aos="zoom-in")
-      .col-lg-8
-        p(data-aos="fade-left") La participación de las familias debe superar lo asistencial y transformarse en una alianza educativa. Para ello, es necesario preguntarse: ¿se convoca a todas las familias o solo a unas cuantas? ¿Su participación es pasiva o transformadora? Asimismo, la participación estudiantil debe comenzar desde la primera infancia. ¿Qué mecanismos se han habilitado para escuchar a los niños y niñas? ¿Sus ideas se consideran en las decisiones escolares?
-    
-        .bg-color-2.p-5.mb-3(data-aos="fade-left")
-          p.mb-0 En cuanto al entorno, el reto es pasar de relaciones formales a vínculos auténticos. ¿Qué relación tiene la escuela con el territorio? ¿Se integran los recursos comunitarios en los procesos pedagógicos? Finalmente, la gestión comunitaria debe incluir procesos de autoevaluación para ajustar estrategias, corregir desigualdades y fortalecer el compromiso colectivo.
-
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0.order-lg-2
-        figure
-          img(src="@/assets/curso/tema2/22.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
-        p(data-aos="fade-left") En síntesis, gestionar la comunidad es construir una escuela dialógica, abierta e incluyente. Una escuela donde la voz de cada niño cuenta, la familia es bienvenida y el aprendizaje se enriquece con la sabiduría del territorio.
-    
-        .bg-color-3.p-5(data-aos="fade-left").mb-3
-          p Reflexiones finales:
-          ul.lista-ul--color.mb-0
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 ¿Cómo se puede fortalecer la participación auténtica en la institución?
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 ¿Qué cambios concretos se podrían implementar desde la gestión para dar mayor protagonismo a la comunidad?
-            li.mb-0.d-flex
-              i.far.fa-arrow-alt-circle-right
-              p.mb-0 ¿Qué aprendizajes deja esta revisión para el futuro ejercicio como educador o educadora infantil?
-
-    #t_2_5.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.5] Integración de las gestiones en el proceso de mejoramiento continuo
-    
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/23.png", data-aos="zoom-in")
-      .col-lg-8
-        p(data-aos="fade-left") ¿Cómo influyen entre sí las diferentes áreas de una institución educativa y cómo su coordinación potencia el impacto de las mejoras implementadas? Esta es una pregunta central para entender por qué la integración de las gestiones en el Plan de Mejoramiento Institucional (PMI) es imprescindible para garantizar procesos efectivos, coherentes y sostenibles. Sin articulación, los esfuerzos se dispersan, disminuyendo su eficacia y pertinencia.
-    
-        .bg-color-1.p-5.mb-3(data-aos="fade-left")
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/tema2/24.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Desde una perspectiva sistémica, la institución educativa es un entramado donde interactúan las gestiones directiva, académica, administrativa y de comunidad. Aunque cada una aborda áreas específicas, sus acciones se interrelacionan y deben coordinarse estratégicamente para lograr un impacto real y duradero.
-        p El PMI no es una herramienta estática, sino un instrumento estratégico y dinámico que permite identificar oportunidades de mejora y estructurar acciones integradas. Para lograrlo, debe diseñarse y actualizarse desde una visión holística, considerando los objetivos institucionales, el contexto sociocultural y las políticas educativas vigentes.
+    h2(data-aos="fade-left") Sustento científico y teórico
+    p El juego activa múltiples regiones cerebrales —memoria, lenguaje, emociones, juicio social—, lo que lo convierte en una herramienta pedagógica poderosa. Su respaldo teórico incluye:
 
     .bg-full-width.bg-color-4
       .p-4.p-md-5
         div.row.justify-content-center.align-items-stretch.mb-5
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/25.svg" alt="" style="width: 90px")
-              h5.text-center Directiva
-              p.mb-0.text-center Lidera estratégicamente, consolida la visión institucional y alinea el PMI con las políticas educativas. Fomenta el clima organizacional, la cultura de mejora continua y el trabajo colaborativo.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/13.svg" alt="" style="width: 90px")
+              h5.text-center Lev Vygotsky
+              p.mb-0.text-center Juego como zona de desarrollo próximo y medio para interiorizar la cultura.
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/26.svg" alt="" style="width: 90px")
-              h5.text-center Académica
-              p.mb-0.text-center Diseña e implementa currículo, procesos pedagógicos y evaluación. Asegura pertinencia y calidad, integrando ejes como la inclusión y el desarrollo socioemocional. Colabora estrechamente con la gestión directiva.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/14.svg" alt="" style="width: 90px")
+              h5.text-center Jean Piaget
+              p.mb-0.text-center Juego como reflejo del desarrollo cognitivo y motor.
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/27.svg" alt="" style="width: 90px")
-              h5.text-center Administrativa y financiera
-              p.mb-0.text-center Administra recursos humanos, infraestructura y presupuesto. Asegurar la sostenibilidad de las acciones del PMI, con eficiencia, legalidad y transparencia. Responde a las demandas generadas por las otras gestiones.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/15.svg" alt="" style="width: 90px")
+              h5.text-center Howard Gardner
+              p.mb-0.text-center Diversidad de juegos según las inteligencias múltiples (musical, corporal, lingüística, etc.).
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema2/28.svg" alt="" style="width: 90px")
-              h5.text-center Comunidad
-              p.mb-0.text-center Involucra activamente a familias, estudiantes y actores del entorno. Fortalece la corresponsabilidad, construye redes de apoyo y promueve una cultura democrática e inclusiva.
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/16.svg" alt="" style="width: 90px")
+              h5.text-center Catherine L’Ecuyer
+              p.mb-0.text-center Juego libre como base del asombro y la curiosidad.
 
-        p.mb-5 Para que esta integración sea efectiva, se requieren mecanismos claros de coordinación:
+        h2(data-aos="fade-left") Impacto del juego en el desarrollo infantil
+        p.mb-5 Al ser una experiencia multisensorial y afectiva, el juego impacta todas las dimensiones del desarrollo infantil. A continuación, se sintetizan sus aportes en cada una de ellas:
 
-        .row.justify-content-center.align-items-stretch.mb-5
-          .col-lg-4.mb-3.mb-lg-0
-            .bg-color-6.p-4(data-aos="fade-left").h-100
-              .row.align-items-center
-                .col-lg-auto
-                  img(src="@/assets/curso/tema2/29.svg", style="max-width: 90px").mx-auto
-                .col-lg
-                  h5.mb-2 01
-                  p.mb-0 Comités interdisciplinarios que articulen acciones entre gestiones.
-          .col-lg-4.mb-3.mb-lg-0
-            .bg-color-6.p-4(data-aos="fade-left").h-100
-              .row.align-items-center
-                .col-lg-auto
-                  img(src="@/assets/curso/tema2/30.svg", style="max-width: 90px").mx-auto
-                .col-lg
-                  h5.mb-2 02
-                  p.mb-0 Planes de capacitación conjunta que fortalezcan una visión compartida.
-          .col-lg-4.mb-3.mb-lg-0
-            .bg-color-6.p-4(data-aos="fade-left").h-100
-              .row.align-items-center
-                .col-lg-auto
-                  img(src="@/assets/curso/tema2/31.svg", style="max-width: 90px").mx-auto
-                .col-lg
-                  h5.mb-2 03
-                  p.mb-0 Herramientas tecnológicas que faciliten el seguimiento, la comunicación y la retroalimentación.
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-8.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-12 col-lg-6")
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/18.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Cognitiva
+                p.text-center Estimula la solución de problemas, el pensamiento lógico y la anticipación.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/19.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Comunicativa
+                p.text-center Enriquece el lenguaje oral, la narración, el diálogo y la expresión corporal.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/20.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Socioemocional
+                p.text-center Fortalece la empatía, la autorregulación emocional, la autoestima y la convivencia.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/21.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Corporal
+                p.text-center Mejora la motricidad, la coordinación, la percepción espacial y la salud física.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Ética
+                p.text-center Promueve valores como el respeto, la solidaridad, la honestidad y el cumplimiento de normas compartidas.
+    
+          .col-lg-4.order-lg-1
+            figure
+              img(src='@/assets/curso/tema4/17.png', alt='')
+    
+        .bg-full-width.bg-color-8
+          .px-4.px-md-5.py-4
+            .row.align-items-center
+              .col-lg-auto
+                img(src="@/assets/curso/tema4/23.svg", style="max-width: 90px").mx-auto
+              .col-lg.text-white
+                p.mb-0 Planear el juego en la escuela requiere intencionalidad pedagógica, ambientes adecuados, tiempo suficiente y materiales diversos. Esto no significa dirigirlo, sino garantizar condiciones para que emerja de manera genuina. En este proceso, el educador es un mediador sensible, un observador que diseña ambientes significativos y acompaña sin imponer.
+    
+    h2(data-aos="fade-left").mb-5 Marco normativo en Colombia
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/24.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        .bg-color-3.p-5(data-aos="fade-left").mb-3
+          p El valor del juego está respaldado por:
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Decreto 2247 de 1997
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Orientaciones Pedagógicas para la Educación Inicial (MEN, 2014)
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Política de Estado para el Desarrollo Integral de la Primera Infancia (De Cero a Siempre, CONPES 109/2007 y 3999/2020)
+        p(data-aos="fade-left") El juego, al ser una experiencia multisensorial, emocional y libre, no solo respeta la naturaleza del niño, sino que potencia su desarrollo integral. En una educación inicial que reconoce sus derechos, el juego es mucho más que entretenimiento: es el corazón de la pedagogía infantil.
+    
+    #t_4_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] El arte y la literatura como ejes de formación integral
+    
+    .bg-color-1.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto.mb-3.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema4/25.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") ¿Qué sentidos despiertan en la infancia cuando se dibuja una figura, se canta una canción o se escucha un cuento narrado con emoción?  Estas experiencias, lejos de ser simples momentos recreativos, constituyen actos profundamente educativos. Permiten que niñas y niños construyan sentido sobre sí mismos, los otros y el entorno que los rodea. En la educación inicial, el arte y la literatura no son actividades accesorias, sino ejes centrales que enriquecen el desarrollo integral desde una perspectiva humanizadora.
+    
+    h2(data-aos="fade-left").mb-5 El arte como forma de pensamiento y expresión
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/26.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p Desde los primeros trazos con crayones hasta la dramatización o la exploración de materiales como arcilla y témpera, el arte en la infancia se expresa de múltiples maneras. Estas manifestaciones no deben verse como intentos de imitar el arte adulto, sino como formas legítimas de pensamiento, exploración y expresión.
+        .bg-color-3.p-5(data-aos="fade-left").mb-3
+          p Según las Orientaciones pedagógicas para la educación inicial (MEN, 2024), el arte en la primera infancia:
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Estimula la sensibilidad estética.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Desarrolla la observación, el análisis y la expresión simbólica.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Favorece la autonomía, libertad y autorregulación.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Potencia la creatividad, imaginación y pensamiento divergente.
+        p(data-aos="fade-left") El arte permite a los niños expresar lo que no siempre pueden verbalizar, leer el mundo con los sentidos y habitar la realidad de forma activa y poética.
+    
+    h2(data-aos="fade-left") La literatura como experiencia estética y emocional
+    p.mb-5 La literatura infantil va mucho más allá del aprendizaje de palabras o la adquisición del hábito lector. Escuchar cuentos, inventar historias, cantar arrullos o recitar poemas:
+  
+    .bg-full-width.bg-color-4
+      .p-4.p-md-5
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/27.svg" alt="" style="width: 90px")
+              h5.text-center 01
+              p.mb-0.text-center Amplía el vocabulario y la comprensión lingüística.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/28.svg" alt="" style="width: 90px")
+              h5.text-center 02
+              p.mb-0.text-center Estimula la empatía y el reconocimiento de emociones.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/29.svg" alt="" style="width: 90px")
+              h5.text-center 03
+              p.mb-0.text-center Fomenta la construcción de la identidad y la cultura.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/30.svg" alt="" style="width: 90px")
+              h5.text-center 04
+              p.mb-0.text-center Introduce el disfrute estético del lenguaje.
+
+        p.mb-5 El adulto, como mediador, debe propiciar entornos cálidos y diversos, ofreciendo textos de calidad y promoviendo la participación activa del niño: opinando, recontando e interpretando. El impacto del arte y la literatura en el desarrollo infantil es: 
+
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-8.mb-3.mb-lg-0
+            SlyderF(columnas="col-12 col-lg-6")
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Cognitiva
+                p.text-center Estimulan la observación, concentración, memoria, pensamiento crítico y creatividad.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Comunicativa
+                p.text-center comprensión 
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/34.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Socioemocional
+                p.text-center Permiten expresar emociones, fortalecen la autoestima, la empatía y el reconocimiento del otro.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/35.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Corporal
+                p.text-center Involucran movimiento, coordinación motora y conciencia corporal a través de la exploración artística.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/36.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Estética y ética
+                p.text-center Cultivan el gusto por la belleza, el respeto por la diversidad y el juicio moral, y valoran el patrimonio cultural.
+    
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/tema4/31.png', alt='')
+    
+    h2(data-aos="fade-left").mb-5 recomendadas
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/37.png", data-aos="zoom-in")
+      .col-lg-8
+        p En Colombia, el arte y la literatura están reconocidos como actividades rectoras en el marco de la educación inicial integral, según el Decreto 2247 de 1997. La Ley 1804 de 2016 (Ley de Cero a Siempre) y las Orientaciones Pedagógicas del MEN (2024) consolidan esta perspectiva al incluirlas como pilares estructurantes del currículo junto con el juego y la exploración del medio.
+        .bg-color-3.p-5(data-aos="fade-left").mb-3
+          h5 Educar desde el arte y la literatura implica:
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Disponer de ambientes ricos en materiales y libros. 
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Promover la expresión libre y sin juicios.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Integrar estas prácticas a las rutinas cotidianas.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Respetar el ritmo e intereses de cada niño o niña.
+        p(data-aos="fade-left") El docente, en este enfoque, se convierte en acompañante sensible, generador de preguntas y oportunidades creativas, más que en evaluador de productos estéticos.El arte y la literatura despiertan emociones, estimulan el pensamiento y fortalecen la identidad. Incorporarlas como ejes de la educación inicial no solo promueve el desarrollo integral, sino que garantiza una infancia rica en experiencias significativas, sensibles y profundamente humanas.
+    
+    #t_4_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.4] Relación entre actividades rectoras y dimensiones del desarrollo infantil
+
+    .row.mb-5
+      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/38.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        .bg-color-5.p-5(data-aos="fade-left").mb-3
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema4/39.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 ¿Cómo se integran las actividades rectoras con las dimensiones del desarrollo infantil para potenciar una educación inicial integral y de calidad? En la educación inicial, las actividades rectoras no son prácticas aisladas o complementarias: son el eje estructurante que permite desarrollar de forma armónica y simultánea todas las dimensiones del ser humano. Este enfoque, respaldado por evidencia científica y normativa nacional, reconoce la infancia como una etapa decisiva para construir bienestar, identidad y ciudadanía desde los primeros años.
+
+        p(data-aos="fade-left") Las políticas colombianas —como el Decreto 2247 de 1997 y el Marco de la Política Pública para la Primera Infancia “De Cero a Siempre”— promueven una visión multidimensional e integral del desarrollo infantil. Las principales dimensiones reconocidas son:
+
+    .bg-full-width.bg-color-4
+      .p-4.p-md-5
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-8.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-12 col-lg-6")
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/42.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Física y motriz
+                p.text-center Impulsa habilidades motoras y hábitos saludables.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/42.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Comunicativa
+                p.text-center Estimula el pensamiento crítico, la memoria y la alfabetización emergente.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/43.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Socioemocional
+                p.text-center Fortalece la empatía, la autorregulación y el bienestar emocional.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/44.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Comunicativa
+                p.text-center Desarrolla el lenguaje verbal, gestual y simbólico.
+              .bg-color-white.p-4.h-100.shadow-app
+                img(src='@/assets/curso/tema4/45.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.text-center.mb-4 Ética, estética y cultural
+                p.text-center Promueve la identidad, la creatividad y el sentido de pertenencia.
+    
+          .col-lg-4.order-lg-1
+            figure
+              img(src='@/assets/curso/tema4/40.png', alt='')
+
+        p.mb-5 Las actividades rectoras —juego, arte, literatura y exploración del entorno— actúan como vehículos integradores que permiten el desarrollo coordinado de estas dimensiones. A continuación, se muestra su correspondencia específica:
+
+        TabsC.color-acento-contenido.mb-5
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Juego" :icon="require('@/assets/bullets/1.svg')")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0
+                h4 Juego
+                p Física y motriz (coordinación), cognitiva (resolución de problemas), socioemocional (empatía), comunicativa (interacción), ética (convivencia).
+        
+              .col-md-8.col-lg-5.col-xl-4.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema4/46.png', alt='')
+        
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Arte" :icon="require('@/assets/bullets/2.svg')")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0
+                h4 Arte
+                p Estética y cultural (expresión creativa), física (motricidad fina), socioemocional (autoconocimiento), cognitiva (imaginación y observación).
+        
+              .col-md-8.col-lg-5.col-xl-4.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema4/47.png', alt='')
+        
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Literatura" :icon="require('@/assets/bullets/3.svg')")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0
+                h4 Literatura
+                p Comunicativa (lenguaje oral y comprensión), cognitiva (narración, inferencia), socioemocional (empatía), ética (valores), cultural (identidad).
+        
+              .col-md-8.col-lg-5.col-xl-4.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema4/48.png', alt='', style="width: 100%;")
+        
+          .tabs-content.border.px-4.p-md-5.py-3(titulo="Exploración del entorno" :icon="require('@/assets/bullets/4.svg')")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.col-xl-8.mb-4.mb-md-0
+                h4 Exploración del entorno
+                p Cognitiva (curiosidad científica), física (movimiento), ética (ciudadanía), cultural (patrimonio), socioemocional (interacción con el contexto).
+        
+              .col-md-8.col-lg-5.col-xl-4.mb-3.mb-lg-0
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/tema4/49.png', alt='', style="width: 100%;")
+        
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/50.png", data-aos="zoom-in")
+      .col-lg-8
+        p Este enfoque integral se refuerza mediante principios clave establecidos en documentos como el Plan Nacional de Desarrollo, las orientaciones del MEN y la Estrategia De Cero a Siempre, que enfatizan la necesidad de:
+        .bg-color-3.p-5(data-aos="fade-left").mb-3
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Crear ambientes educativos enriquecidos y culturalmente relevantes. 
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Implementar metodologías activas con participación de la familia y la comunidad.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Aplicar evaluaciones formativas para ajustar las prácticas a los intereses y necesidades individuales.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Garantizar el acceso, permanencia y equidad como derechos fundamentales.
+        p(data-aos="fade-left") La articulación entre actividades rectoras y dimensiones del desarrollo infantil es la base de una educación inicial verdaderamente integral. Estas experiencias promueven la autonomía, la creatividad, la resiliencia y la participación activa, competencias esenciales para la vida en el siglo XXI. En este modelo pedagógico, cada juego, relato, dibujo o exploración se convierte en una oportunidad para construir humanidad desde la infancia.
+
+    #t_4_5.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.5] Orientaciones del MEN y su implementación en el aula
+
+    .bg-full-width.bg-color-4
+      .p-4.p-md-5
 
         .row.mb-5
-          .col-lg-4.mb-3.mb-lg-0.order-lg-2
+          .col-lg-4.order-lg-2.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/tema2/32.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema4/51.png", data-aos="zoom-in")
           .col-lg-8.order-lg-1
-            p(data-aos="fade-left") Asimismo, la autoevaluación institucional debe incluir indicadores que midan no solo los resultados, sino también la calidad de la interacción entre gestiones. Este análisis es vital para ajustar el PMI y consolidar una cultura organizacional orientada a la mejora continua.
+            .bg-color-7.p-5(data-aos="fade-left").mb-3
+              p.mb-0 ¿En qué momento se pasa de planear actividades para la infancia a diseñar experiencias de vida con sentido, que reconozcan sus voces, emociones y posibilidades?  Esta pregunta orienta el cambio de paradigma que promueve el Ministerio de Educación Nacional (MEN) en sus lineamientos para la educación inicial: una transición de enfoques centrados en contenidos a propuestas pedagógicas centradas en los niños y niñas como protagonistas de su desarrollo.
+            p(data-aos="fade-left") Las orientaciones del MEN son documentos técnicos y pedagógicos que guían el trabajo de maestras, maestros, agentes educativos, jardines infantiles e instituciones, articulándose con la política pública De Cero a Siempre. Estas orientaciones se fundamentan en los principios de derechos, diversidad, inclusión, participación y cuidado, y buscan promover el desarrollo integral de niñas y niños de 0 a 6 años. A continuación, se presentan las principales orientaciones del MEN y sus enfoques asociados:
+
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema4/52.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Lineamientos Pedagógicos y Curriculares para la Educación Inicial (2018)
+                p.mb-0.text-center Proponen integrar el juego, arte, literatura y exploración como base del currículo. Resaltan la motivación, el vínculo afectivo y el contexto significativo.
+          .col-lg-6.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema4/53.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Condiciones de calidad de la educación inicial (2024)
+                p.mb-0.text-center Establecen criterios en los componentes pedagógico, institucional y de gestión. Introducen el ambiente protector, la intencionalidad y la corresponsabilidad.
+    
+    h2(data-aos="fade-left").mb-5 Transformación de la práctica educativa
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema4/54.png", data-aos="zoom-in")
+      .col-lg-8
+        p Implementar estas orientaciones no implica seguir modelos rígidos, sino diseñar experiencias con sentido, que se ajusten al contexto y respondan al desarrollo del grupo infantil. Algunas estrategias pedagógicas recomendadas son:
+        .bg-color-3.p-5(data-aos="fade-left").mb-3
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Diseñar ambientes activos, seguros y estéticos, que fomenten la exploración autónoma y el diálogo con el entorno.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Organizar la jornada con momentos significativos, evitando la fragmentación por asignaturas tradicionales.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Escuchar, observar y documentar las emociones, preguntas e intereses infantiles para adaptar las propuestas pedagógicas.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 Incluir a las familias como aliadas en la construcción del aprendizaje, mediante espacios participativos de intercambio y colaboración.
+    
+    h2(data-aos="fade-left") Enfoques integradores de las orientaciones del MEN
+    p.mb-5 Las orientaciones actuales articulan diversos enfoques que enriquecen la educación inicial:
+   
+    .bg-full-width.bg-color-4
+      .p-4.p-md-5
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/55.svg" alt="" style="width: 90px")
+              h5.text-center Desarrollo integral
+              p.mb-0.text-center Integración de lo físico, cognitivo, emocional, social y espiritual.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/56.svg" alt="" style="width: 90px")
+              h5.text-center Educación para la paz
+              p.mb-0.text-center Prácticas pedagógicas que fomentan el diálogo, la resolución pacífica de conflictos y la empatía.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/57.svg" alt="" style="width: 90px")
+              h5.text-center Inclusión y diversidad
+              p.mb-0.text-center Participación sin discriminación, adaptando las estrategias a contextos, lenguas y estilos de aprendizaje diversos.
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(src="@/assets/curso/tema4/58.svg" alt="" style="width: 90px")
+              h5.text-center Interculturalidad
+              p.mb-0.text-center Reconocimiento de los saberes y cosmovisiones propias de comunidades indígenas, afrocolombianas y rurales.
         
-            .bg-color-3.p-5(data-aos="fade-left").mb-3
-              p Reflexiones para profundizar:
-              ul.lista-ul--color.mb-0
-                li.mb-0.d-flex
-                  i.far.fa-arrow-alt-circle-right
-                  p.mb-0 ¿Qué prácticas institucionales facilitan o dificultan la integración de las gestiones en la realidad educativa actual?
-                li.mb-0.d-flex
-                  i.far.fa-arrow-alt-circle-right
-                  p.mb-0 ¿Cómo puede el liderazgo directivo fortalecer los vínculos entre gestiones para fomentar la mejora continua?
-                li.mb-0.d-flex
-                  i.far.fa-arrow-alt-circle-right
-                  p.mb-0 ¿De qué manera la participación de la comunidad educativa puede potenciar los resultados del PMI?
-            p Tras este recorrido por las gestiones que conforman el Plan de Mejoramiento Institucional, es momento de adentrarse en la evaluación institucional y descubrir cómo las estrategias de autoevaluación se convierten en aliadas indispensables para impulsar la mejora continua y fortalecer la calidad educativa. Exploremos estas herramientas fundamentales.
+        h2(data-aos="fade-left") Desafíos en la implementación
+
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0.order-lg-2
+        figure
+          img(src="@/assets/curso/tema4/59.png", data-aos="zoom-in")
+      .col-lg-8.order-lg-1
+        p A pesar de los avances normativos y pedagógicos, aún existen retos importantes:
+        .bg-color-1.p-5(data-aos="fade-left").mb-3
+          ul.lista-ul--color
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 <b>Formación docente desigual</b>, especialmente en zonas rurales.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 <b>Déficits en infraestructura</b>, que limitan las condiciones para una experiencia pedagógica integral.
+            li.mb-0.d-flex
+              i.far.fa-arrow-alt-circle-right
+              p.mb-0 <b>Falta de articulación interinstitucional</b>, que puede llevar a aplicar las políticas de infancia de manera fragmentada.
+        p Las orientaciones del MEN no solo ofrecen lineamientos técnicos, sino que proponen una mirada ética, afectiva y participativa de la educación inicial. Implementarlas implica reconocer que educar en la infancia no es solo enseñar, sino acompañar procesos de vida con respeto, sensibilidad y compromiso con el desarrollo pleno de cada niño y niña.
     
     .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") Evaluación institucional y estrategias de autoevaluación
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Evaluación institucional y estrategias de autoevaluación, donde se aborda el papel de la evaluación en las instituciones educativas como herramienta clave para el mejoramiento continuo. 
+            h2.mb-4(data-aos="flip-up") Resolución 2343 de 1996 y la evaluación del desarrollo infantil
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Resolución 2343 de 1996 y la evaluación del desarrollo infantil, donde se aborda la relevancia del marco normativo colombiano en la educación inicial y su impacto en la evaluación del desarrollo infantil. 
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Evaluación institucional y estrategias de autoevaluación
+                p <strong>Anexo. </strong> Resolución 2343 de 1996 y la evaluación del desarrollo infantil
     
           .col-lg-5.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/33.png', alt='')
+              img(src='@/assets/curso/tema3/18.png', alt='')
+            
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -407,78 +586,225 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/177041" target="_blank" rel="noopener noreferrer") Avendaño, F. (2021). Caja de herramientas para la gestión educativa: aportes para los equipos directivos: ( ed.). Homo Sapiens Ediciones.  
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/46038 " target="_blank" rel="noopener noreferrer") Miralles Quesada, D. & Hernández Jiménez, S. (2016). El arte de la educación infantil: educar desde el amor y el respeto: ( ed.). Narcea Ediciones. 
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/91067" target="_blank" rel="noopener noreferrer") Suama, R. D. C. (2016). Gestión académica universitaria para el desempeño del profesor en el proceso de enseñanza-aprendizaje: ( ed.). Editorial Universitaria.  
+              a(href="https://repository.udistrital.edu.co/items/c789427c-92b3-4bbf-9614-621c9174a63a " target="_blank" rel="noopener noreferrer") BERDUGO, C. R., ZUBIETA, S. X. B., TORRES, P. A. D., & ROMERO, M. Q. HISTORIA DE LA POLÍTICA EDUCATIVA PARA LA INFANCIA EN COLOMBIA. 
+
+ 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://www.scielo.org.co/scielo.php?pid=S0122-72382017000100011&script=sci_arttext" target="_blank" rel="noopener noreferrer") Rincón Verdugo, C., & Triviño, A. V. (2017). Hegemonía y alternativas en las políticas educativas para la infancia en Colombia: sujetos, discursos y prácticas (1982-2015). Revista historia de la educación latinoamericana, 19(28), 197-222.  
+
 
 
             
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://dialnet.unirioja.es/servlet/articulo?codigo=9479151 " target="_blank" rel="noopener noreferrer") Burbano, L. F. P., Valenzuela, E. T., & Tello, O. C. (2022). Significancia de la evaluación y el plan de mejoramiento institucional. Revista Oratores, (17), 137-150. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://repositorio.cuc.edu.co/entities/publication/118dc1c9-de40-4dcf-a790-959825e9b480 " target="_blank" rel="noopener noreferrer") Jímenez, K. E., & CABALLERO, S. C. R. (2014). Plan de Mejoramiento Institucional como Dispositivo de Gestión Participativa para el Fortalecimiento de la Calidad Educativa. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://repositorio.umecit.edu.pa/entities/publication/e862eb1f-eb2c-48c3-8a50-20f68e27c94a " target="_blank" rel="noopener noreferrer") Morales Arguello, S. (2018). Reestructuración del plan de mejoramiento institucional de la gestión directiva en la institución educativa Los Volcanes de Tierraalta-Córdoba (Doctoral dissertation, Panamá: Universidad UMECIT, 2018). 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://gestion.pensemos.com/gestion-institucional-que-es-como-implementarla-en-entornos-educativos " target="_blank" rel="noopener noreferrer") Alvarado, C. (2022, 23 de noviembre). Gestión Institucional: ¿qué es? ¿cómo implementarla en entornos educativos? Pensemos, Software de Gestión Estratégica. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://gestioneducativa.educaweb.com/ " target="_blank" rel="noopener noreferrer") Blog de Gestión Educativa. (s.f.). Blog de Gestión Educativa. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.poli.edu.co/blog/poliverso/gestion-educativa" target="_blank" rel="noopener noreferrer") Qué es y en qué consiste la Gestión Educativa en Colombia. (s.f.). Inicio | Politécnico Grancolombiano. 
-
- 
-
-           
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=Qg7r6s6c764 " target="_blank" rel="noopener noreferrer") INDEE. (2022a, 30 de marzo). Liderazgo en los instrumentos de gestión directiva [Video]. YouTube. 
-
-
+              a(href="https://www.youtube.com/watch?v=xgp6QxE68uc" target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (2021, 15 de mayo). Conversatorio con docentes de educación preescolar, básica, media y superior [Video]. YouTube.  
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=pZdArTprvaw " target="_blank" rel="noopener noreferrer") Facultad de Estudios a Distancia UMNG. (2016, 9 de noviembre). Gestión académica y Gestión del Conocimiento [Video]. YouTube. 
+              a(href="https://www.youtube.com/watch?v=P-__in-FAWU " target="_blank" rel="noopener noreferrer") IESPP NELSON ROCKEFELLER - IX ciclo. (2023, 23 de septiembre). 2023 09 11 Gestión y Organización de Instituciones Educativas y Programas de Educación inicial [Video]. YouTube. 
 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=-bxtGWJztwc " target="_blank" rel="noopener noreferrer") INDEE. (2022a, 17 de marzo). ¿Qué es gestión educativa? [Video]. YouTube. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=3kwLp5XsXKQ " target="_blank" rel="noopener noreferrer") Asociación de Directores RD (ASONADEDI - RD). (2025, 4 de abril). Instrumento de acompañamiento gestión administrativa gestión 1.0 La escuela virtual del director [Video]. YouTube. 
 
 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
-
+  
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de los siguientes aspectos regula el Decreto 2247 de 1997 en relación con la educación preescolar?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Los lineamientos para la educación media vocacional',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'La organización, funcionamiento y requisitos del nivel preescolar',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Las condiciones para la educación técnica y tecnológica',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'La educación para adultos en zonas rurales',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál de las siguientes se considera una actividad rectora en la educación inicial, según el MEN?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'La instrucción directa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'El dictado',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'El juego',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'La evaluación sumativa',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué propósito cumplen las actividades rectoras en el desarrollo infantil?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Estimular el desarrollo integral desde lo lúdico, artístico y literario',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Reforzar la disciplina mediante ejercicios repetitivos',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Transmitir conocimientos académicos de forma tradicional',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Preparar al niño para evaluaciones estandarizadas',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál de las siguientes dimensiones del desarrollo infantil está contemplada en la Resolución 2343 de 1996?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Científica',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Ética',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Comunicativa',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Digital',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál es una relación directa entre el Decreto 2247 de 1997 y la Resolución 2343 de 1996?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Ambos reglamentan el nivel de educación básica secundaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Ambos establecen lineamientos y logros para el nivel preescolar',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Los dos se enfocan en la educación para jóvenes y adultos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Los dos fueron emitidos por el Ministerio de Salud',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -487,4 +813,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
