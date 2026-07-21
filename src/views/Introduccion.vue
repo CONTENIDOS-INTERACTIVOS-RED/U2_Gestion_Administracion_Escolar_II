@@ -12,7 +12,7 @@
           img(src="@/assets/curso/intro/1.png" data-aos="zoom-in")
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.tarjeta.p-3.h-100(data-aos="fade-left").mb-4
-          p(data-aos="fade-left") Esta unidad se enfoca en comprender a profundidad los componentes que integran un PMI, así como las distintas gestiones —directiva, académica, administrativa y comunitaria— que deben articularse para lograr una gestión eficiente y efectiva. Además, se explorarán las estrategias de autoevaluación como mecanismos clave para diagnosticar, reflexionar y tomar decisiones fundamentadas que permitan fortalecer el proyecto institucional y alcanzar los objetivos propuestos.
+          p(data-aos="fade-left") Estos documentos fortalecen la práctica docente, promoviendo un enfoque crítico, ético y contextualizado. Su análisis permite interpretar cómo se relacionan con la política pública de primera infancia, garantizando una educación inicial con enfoque de derechos, inclusión y participación.
 
           figure.justify-content-end.d-flex
             img(src="@/assets/curso/intro/3.svg" data-aos="zoom-in", style="max-width: 104px")
@@ -23,7 +23,9 @@
           .col-lg-auto
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 El aprendizaje esperado para esta unidad es que se identifiquen y analicen los elementos esenciales del Plan de Mejoramiento, se diferencien las funciones y responsabilidades de las gestiones involucradas y se apliquen estrategias de autoevaluación que contribuyan a una evaluación institucional sólida. Este conocimiento es fundamental para profesionales en educación, ya que fortalece la capacidad para liderar procesos de cambio que impacten positivamente en la calidad educativa y en la equidad
+            p.mb-2 La unidad se organiza en tres bloques temáticos: análisis del Decreto 2247, estudio de las actividades rectoras y evaluación mediante la Resolución 2343. Se espera una participación activa y reflexiva para aplicar estos lineamientos en experiencias pedagógicas significativas para la infancia.
+            p.mb-0 #[strong “Educar en la primera infancia es sembrar con amor las raíces que sostendrán el futuro de una sociedad más justa y humana.”]
+
 
 
 

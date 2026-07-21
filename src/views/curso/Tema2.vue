@@ -299,7 +299,7 @@
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema4/33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Comunicativa
-                p.text-center comprensión 
+                p.text-center Enriquece el lenguaje oral, la narración, el diálogo y la expresión corporal. 
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema4/34.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Socioemocional
@@ -370,7 +370,7 @@
                 p.text-center Impulsa habilidades motoras y hábitos saludables.
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema4/42.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.text-center.mb-4 Comunicativa
+                h4.text-center.mb-4 Cognitiva
                 p.text-center Estimula el pensamiento crítico, la memoria y la alfabetización emergente.
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema4/43.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
